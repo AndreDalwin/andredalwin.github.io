@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body{
+    background:url(/media/Glass0316.png) center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size:cover;
+            height:100%;
+}
+
+nav{
+    padding: 10px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.landing h1{
+    padding-top: calc((1vh*15+1vh));
+    width: 90%;
+    font-size: clamp(75px, calc(3.125rem + ((1vw - 7.68px) * 13.0208)), 175px);
+      min-height: 0vw;
+}
