@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@import url(//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold);
+@font-face {font-family: "LuloCleanW01-OneBold"; src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot"); src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg"); }
 *{
     margin: 0;
 }
 h1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'LuloCleanW01-OneBold', sans-serif;
     font-size: 100px;
-    font-weight: 600;
     color: white;
     
 }
@@ -29,7 +31,7 @@ hr{
 }
 
 .landing h1{
-    padding-top: calc(50vh*0.7);
+    padding-top: calc(50vh*0.5);
     padding-left: 20px;
     font-size: min(max(60px, calc(3.75rem + ((1vw - 4.14px) * 5.9761))), 150px);
       min-height: 0vw;
@@ -40,7 +42,7 @@ hr{
     max-width: 35px;
     max-height: 35px;
     left: 47.5vw;
-    top: 25vh;
+    top: calc(50vh*0.3);
     position: relative;
 }
 
