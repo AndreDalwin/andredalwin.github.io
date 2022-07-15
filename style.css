@@ -15,6 +15,11 @@ h3{
     font-weight: 500;
     color: white;
 }
+
+hr{
+    color: white;
+    padding-left: 10px;
+}
 .landing{
     background:url(/media/Glass0316.jpg) center center;
     background-color: black;
@@ -65,4 +70,14 @@ h3{
     padding: 10px;
     padding-left: 28px;
     margin-left: auto;
+}
+.video h3{
+    padding-bottom: 20px;
+}
+.video{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 49, 49);
+    align-items: center;
 }
