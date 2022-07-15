@@ -70,7 +70,11 @@ hr {
   max-width: 35px;
   max-height: 35px;
 }
-
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .info {
   padding: 20px;
   display: flex;
@@ -106,4 +110,48 @@ hr {
   flex-direction: column;
   background-color: white;
   align-items: center;
+}
+.video video{
+    max-width: 80%;
+    max-height: auto;
+}
+
+.experience{
+    display: flex;
+    flex-flow: row;
+    max-width: 1000px;
+}
+.experience h1{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: -20px;
+    font-size: 50px;
+    padding: 10px;
+}
+.experience .column{
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 5px 5px 13px -3px rgba(0,0,0,0.75);
+
+    position: relative;
+    transition: top ease 0.5s;
+   
+}
+
+.experience .column:hover {
+    top:-5px;
+}
+
+.experience .column h3{
+    font-size: 17px;
+}
+.experience .column h2{
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+.experience .column p{
+    font-family: Helvetica, sans-serif;
+    line-height: 25px;
 }
