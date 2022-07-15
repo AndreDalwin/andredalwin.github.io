@@ -32,8 +32,8 @@ h3{
 }
 
 .landing img{
-    max-width: 5%;
-    max-height: 5%;
+    max-width: 35px;
+    max-height: 35px;
     left: 47.5vw;
     top: 25vh;
     position: relative;
