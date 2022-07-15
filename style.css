@@ -1,25 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
-
-h3{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-weight: 400;
-}
-
-body{
-    background:url(/media/Glass0316.png) center center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size:cover;
-            height:100%;
-
+*{
     margin: 0;
 }
-
-nav{
-    padding: 20px;
-}
-
 h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 100px;
@@ -27,11 +9,50 @@ h1{
     color: white;
     
 }
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.landing{
+    background:url(/media/Glass0316.jpg) center center;
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+}
 
 .landing h1{
-    padding-top: calc((1vh*15));
+    padding-top: calc(50vh*0.7);
     padding-left: 20px;
-    font-size: min(max(75px, calc(3.125rem + ((1vw - 7.68px) * 8.6806))), 150px);
+    font-size: min(max(60px, calc(3.75rem + ((1vw - 4.14px) * 5.9761))), 150px);
       min-height: 0vw;
     
+}
+
+.info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 49, 49);
+    align-items: center;
+    max-height: 50vh;
+}
+
+.socmed-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.button{
+    max-width: 6em;
+    max-height: 8em;
+    border-radius: 12px;
+}
+
+.button img {
+    max-width: 30%;
+    padding: 10px;
+    padding-left: 33px;
 }
