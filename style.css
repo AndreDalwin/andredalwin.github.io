@@ -17,6 +17,7 @@ h3{
 }
 .landing{
     background:url(/media/Glass0316.jpg) center center;
+    background-color: black;
     height: 100vh;
     background-size:cover;
     background-position: center;
