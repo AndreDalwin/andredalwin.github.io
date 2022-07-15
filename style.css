@@ -1,97 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
 
 @import url(//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold);
-@font-face {font-family: "LuloCleanW01-OneBold"; src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot"); src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg"); }
-*{
-    margin: 0;
+@font-face {
+  font-family: "LuloCleanW01-OneBold";
+  src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot");
+  src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold")
+      format("svg");
 }
-h1{
-    font-family: 'LuloCleanW01-OneBold', sans-serif;
-    font-size: 100px;
-    color: rgb(28, 28, 28);
-    
+* {
+  margin: 0;
 }
-h2{
-    font-family: 'LuloCleanW01-OneBold', sans-serif;
-    font-size: 10px;
-    color: rgb(28, 28, 28);
-    
+h1 {
+  font-family: "LuloCleanW01-OneBold", sans-serif;
+  font-size: 100px;
+  color: rgb(28, 28, 28);
 }
-h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    color: rgb(28, 28, 28);
+h2 {
+  font-family: "LuloCleanW01-OneBold", sans-serif;
+  font-size: 10px;
+  color: rgb(28, 28, 28);
 }
-
-hr{
-    color: rgb(28, 28, 28);
-    padding-left: 10px;
-}
-.landing{
-    background:url(/media/Glass0316.jpg) center center;
-    background-color: black;
-    height: 100vh;
-    background-size:cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(28, 28, 28);
 }
 
-.landing h1{
-    padding-top: calc(50vh*0.8);
-    font-size: min(max(60px, calc(3.75rem + ((1vw - 4.14px) * 5.9761))), 150px);
-      min-height: 0vw;
-    color: white;
-    
+hr {
+  color: rgb(28, 28, 28);
+  padding-left: 10px;
 }
-.landing h2{
-    font-size: clamp(10px, calc(0.9375rem + ((1vw - 4.14px) * 1.328)), 35px);
-     min-height: 0vw;
-     color: white;
-}
-.landing img{
-    
-    padding-top: 30px;
-    max-width: 35px;
-    max-height: 35px;
+.landing {
+  background: url(/media/Glass0316.jpg) center center;
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.info{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    align-items: center;
-    max-height: 50vh;
+.landing h1 {
+  padding-top: calc(50vh * 0.8);
+  font-size: min(max(60px, calc(3.75rem + ((1vw - 4.14px) * 5.9761))), 150px);
+  min-height: 0vw;
+  color: white;
+}
+.landing h2 {
+  font-size: clamp(10px, calc(0.9375rem + ((1vw - 4.14px) * 1.328)), 35px);
+  min-height: 0vw;
+  color: white;
+}
+.landing img {
+  padding-top: 30px;
+  max-width: 35px;
+  max-height: 35px;
 }
 
-
-.socmed-container{
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
+.info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  max-height: 50vh;
 }
-.button{
-    max-width: 5em;
-    border-radius: 12px;
+
+.socmed-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.button {
+  max-width: 5em;
+  border-radius: 12px;
 }
 
 .button img {
-    max-width: 30%;
-    padding: 10px;
-    padding-left: 28px;
-    margin-left: auto;
+  max-width: 30%;
+  padding: 10px;
+  padding-left: 28px;
+  margin-left: auto;
 }
-.video h3{
-    padding-bottom: 20px;
+.video h3 {
+  padding-bottom: 20px;
 }
-.video{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    align-items: center;
+.video {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
 }
