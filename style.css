@@ -31,6 +31,14 @@ h3{
     
 }
 
+.landing img{
+    max-width: 5%;
+    max-height: 5%;
+    left: 47.5vw;
+    top: 25vh;
+    position: relative;
+}
+
 .info{
     padding: 20px;
     display: flex;
