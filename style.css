@@ -56,10 +56,14 @@ hr {
   min-height: 0vw;
   color: white;
 }
-.landing h2 {
+.landing span {
+  font-family: "LuloCleanW01-OneBold", sans-serif;
+  font-size: 10px;
+  color: rgb(28, 28, 28);
   font-size: clamp(10px, calc(0.9375rem + ((1vw - 4.14px) * 1.328)), 35px);
   min-height: 0vw;
   color: white;
+  text-align: center;
 }
 .landing img {
   padding-top: 30px;
