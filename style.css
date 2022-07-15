@@ -39,6 +39,7 @@ h3{
     max-height: 50vh;
 }
 
+
 .socmed-container{
     padding: 10px;
     display: flex;
@@ -46,13 +47,13 @@ h3{
     gap: 15px;
 }
 .button{
-    max-width: 6em;
-    max-height: 8em;
+    max-width: 5em;
     border-radius: 12px;
 }
 
 .button img {
     max-width: 30%;
     padding: 10px;
-    padding-left: 33px;
+    padding-left: 28px;
+    margin-left: auto;
 }
