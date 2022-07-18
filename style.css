@@ -21,22 +21,22 @@
 h1 {
   font-family: "LuloCleanW01-OneBold", sans-serif;
   font-size: 100px;
-  color: rgb(28, 28, 28);
+  color:#444444;
 }
 h2 {
   font-family: "LuloCleanW01-OneBold", sans-serif;
   font-size: 10px;
-  color: rgb(28, 28, 28);
+  color: #444444;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  color: rgb(28, 28, 28);
+  color: #444444;
 }
 
 hr {
-  color: rgb(28, 28, 28);
+  color: #444444;
   padding-left: 10px;
 }
 .landing {
@@ -116,42 +116,56 @@ hr {
     max-height: auto;
 }
 
-.experience{
+.details{
     display: flex;
     flex-flow: row;
     max-width: 1000px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.experience h1{
+
+.experience{
+  box-shadow: 18px 10px 42px -9px rgba(237,112,237,0.72);
+}
+
+.projects{
+  flex-direction: row-reverse;
+  box-shadow: 18px 10px 42px -9px rgba(227, 87, 0, 0.72);
+}
+.details h1{
     writing-mode: vertical-lr;
     text-orientation: upright;
     letter-spacing: -20px;
     font-size: 50px;
     padding: 10px;
+    color: #444444
 }
-.experience .column{
+.details .column{
     background-color: white;
     border-radius: 12px;
     padding: 10px;
     margin: 15px;
-    box-shadow: 5px 5px 13px -3px rgba(0,0,0,0.75);
+    box-shadow: 6px 10px 20px 0px rgba(0,0,0,0.3);
 
     position: relative;
     transition: top ease 0.5s;
    
 }
 
-.experience .column:hover {
+.details .column:hover {
     top:-5px;
 }
 
-.experience .column h3{
+.details .column h3{
     font-size: 17px;
 }
-.experience .column h2{
+.details .column h2{
     font-size: 18px;
     padding-bottom: 8px;
 }
-.experience .column p{
+.details .column p{
     font-family: Helvetica, sans-serif;
     line-height: 25px;
 }
