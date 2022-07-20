@@ -49,7 +49,6 @@ hr {
   flex-direction: column;
   align-items: center;
 }
-
 .landing h1 {
   padding-top: calc(50vh * 0.8);
   font-size: min(max(60px, calc(3.75rem + ((1vw - 4.14px) * 5.9761))), 150px);
@@ -122,8 +121,10 @@ hr {
     max-width: 1000px;
     padding: 15px;
     border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .experience{
@@ -133,6 +134,7 @@ hr {
 .projects{
   flex-direction: row-reverse;
   box-shadow: 18px 10px 42px -9px rgba(227, 87, 0, 0.72);
+  margin-bottom: 45px;
 }
 .details h1{
     writing-mode: vertical-lr;
@@ -147,10 +149,10 @@ hr {
     border-radius: 12px;
     padding: 10px;
     margin: 15px;
-    box-shadow: 6px 10px 20px 0px rgba(0,0,0,0.3);
+    box-shadow: 6px 10px 20px 0px rgba(0,0,0,0.2);
 
     position: relative;
-    transition: top ease 0.5s;
+    transition: top ease-in 0.5s;
    
 }
 
@@ -168,4 +170,8 @@ hr {
 .details .column p{
     font-family: Helvetica, sans-serif;
     line-height: 25px;
+}
+.details video{
+  max-width: 100%;
+  max-height: 100%;
 }
