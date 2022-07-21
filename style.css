@@ -1,31 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
 
-@import url(//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold);
-@font-face {
-  font-family: "LuloCleanW01-OneBold";
-  src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot");
-  src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold")
-      format("svg");
-}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
   margin: 0;
 }
 h1 {
-  font-family: "LuloCleanW01-OneBold", sans-serif;
+  font-family: "Kanit", sans-serif;
   font-size: 100px;
   color:#444444;
+  font-weight: 900;
 }
 h2 {
-  font-family: "LuloCleanW01-OneBold", sans-serif;
+  font-family: "Kanit", sans-serif;
   font-size: 10px;
+  font-weight: 700;
   color: #444444;
 }
 h3 {
@@ -51,15 +40,15 @@ hr {
 }
 .landing h1 {
   padding-top: calc(50vh * 0.8);
-  font-size: min(max(60px, calc(3.75rem + ((1vw - 4.14px) * 5.9761))), 150px);
+  font-size: min(max(60px, calc(3.75rem + ((1vw - 4.14px) * 5.9761))), 200px);
   min-height: 0vw;
   color: white;
 }
 .landing span {
-  font-family: "LuloCleanW01-OneBold", sans-serif;
+  font-family: "Kanit", sans-serif;
   font-size: 10px;
   color: rgb(28, 28, 28);
-  font-size: clamp(10px, calc(0.9375rem + ((1vw - 4.14px) * 1.328)), 35px);
+  font-size: clamp(15px, calc(0.9375rem + ((1vw - 4.14px) * 1.328)), 35px);
   min-height: 0vw;
   color: white;
   text-align: center;
@@ -163,8 +152,8 @@ hr {
     font-size: 17px;
 }
 .details h2{
-    font-size: 18px;
-    padding-bottom: 8px;
+    font-size: 20px;
+    padding-bottom: 6px;
 }
 .details p{
     font-family: Helvetica, sans-serif;
