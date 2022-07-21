@@ -47,6 +47,7 @@ hr {
 .landing span {
   font-family: "Kanit", sans-serif;
   font-size: 10px;
+  letter-spacing: 2px;
   color: rgb(28, 28, 28);
   font-size: clamp(15px, calc(0.9375rem + ((1vw - 4.14px) * 1.328)), 35px);
   min-height: 0vw;
@@ -241,6 +242,7 @@ hr {
     flex-direction: column;
     position: static;
     width: 95%;
+    max-width: 1000px;
     top: 0px;
     background-color: white;
     padding: 10px;
