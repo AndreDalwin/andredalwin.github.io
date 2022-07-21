@@ -80,19 +80,18 @@ hr {
 }
 .button {
   max-width: 5em;
-  border-radius: 12px;
+  border-radius: 25px;
   transition: box-shadow ease 0.5s;
 }
 
-.button img {
-  max-width: 30%;
-  padding: 10px;
-  padding-left: 28px;
-  margin-left: auto;
+.button i {
+  font-size: 2em;
+  color: white;
+  padding: 15px 25px;
 }
 
 .button:hover{
-  box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.4);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.4);
 }
 .video h3 {
   padding-bottom: 20px;
