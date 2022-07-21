@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 h1 {
   font-family: "Kanit", sans-serif;
   font-size: 100px;
-  color:#444444;
+  color: #444444;
   font-weight: 900;
 }
 h2 {
@@ -58,10 +58,10 @@ hr {
   max-width: 35px;
   max-height: 35px;
 }
-.body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .info {
   padding: 20px;
@@ -90,8 +90,8 @@ hr {
   padding: 15px 25px;
 }
 
-.button:hover{
-  box-shadow: 6px 6px 22px 0px rgba(255,66,170,1);
+.button:hover {
+  box-shadow: 6px 6px 22px 0px rgba(255, 66, 170, 1);
 }
 .video h3 {
   padding-bottom: 20px;
@@ -103,85 +103,84 @@ hr {
   background-color: white;
   align-items: center;
 }
-.video video{
-    max-width: 80%;
-    max-height: auto;
+.video video {
+  max-width: 80%;
+  max-height: auto;
 }
 
-.details{
-    display: flex;
-    flex-flow: row;
-    max-width: 1000px;
-    padding: 15px;
-    border-radius: 20px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+.details {
+  display: flex;
+  flex-flow: row;
+  max-width: 1000px;
+  padding: 15px;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.details h1{
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    letter-spacing: -20px;
-    font-size: 50px;
-    padding: 10px;
-    color: #444444
+.details h1 {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  letter-spacing: -20px;
+  font-size: 50px;
+  padding: 10px;
+  color: #444444;
 }
-.details .column{
-    background-color: white;
-    border-radius: 12px;
-    padding: 10px;
-    margin: 15px;
-    box-shadow: 4px 10px 10px 0px rgba(0,0,0,0.2);
-    transition: box-shadow ease 0.5s;
-   
+.details .column {
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 15px;
+  box-shadow: 4px 10px 10px 0px rgba(0, 0, 0, 0.2);
+  transition: box-shadow ease 0.5s;
 }
 
 .details .column:hover {
-  box-shadow: 6px 6px 22px 0px rgba(255,66,170,1);
+  box-shadow: 6px 6px 22px 0px rgba(255, 66, 170, 1);
 }
 
-.details h3{
-    font-size: 17px;
+.details h3 {
+  font-size: 17px;
 }
-.details h2{
-    font-size: 20px;
-    padding-bottom: 6px;
+.details h2 {
+  font-size: 20px;
+  padding-bottom: 6px;
 }
-.details p{
-    font-family: Helvetica, sans-serif;
-    line-height: 25px;
+.details p {
+  font-family: Helvetica, sans-serif;
+  line-height: 25px;
 }
 
-.reels{
+.reels {
   flex-flow: column;
 }
-.reels h1{
+.reels h1 {
   writing-mode: horizontal-tb;
   letter-spacing: 0px;
 }
-.reels .project{
+.reels .project {
   position: relative;
   padding: 20px;
 }
-.reels video{
+.reels video {
   width: 100%;
   object-fit: cover;
   z-index: -1;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 4px 10px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 4px 10px 10px 0px rgba(0, 0, 0, 0.2);
 
   transition: box-shadow ease 0.5s, filter ease 0.5s;
 }
 
-.reels video:hover{
-  box-shadow: 6px 6px 22px 0px rgba(255,66,170,1);
+.reels video:hover {
+  box-shadow: 6px 6px 22px 0px rgba(255, 66, 170, 1);
   filter: grayscale(50%);
 }
 
-.reels .project-description{
+.reels .project-description {
   width: 30vw;
   max-width: 400px;
   position: absolute;
@@ -191,20 +190,18 @@ hr {
   margin-top: 35px;
   margin-left: 20px;
   border-radius: 20px;
-  box-shadow: 6px 10px 20px 0px rgba(0,0,0,0.2);
-  
+  box-shadow: 6px 10px 20px 0px rgba(0, 0, 0, 0.2);
 }
-.reels h1{
+.reels h1 {
   padding-left: 20px;
 }
-.reels h2{
+.reels h2 {
   font-size: 25px;
   padding-bottom: 4px;
 }
 
-@media (max-width: 600px){
-
-  .details{
+@media (max-width: 600px) {
+  .details {
     display: flex;
     flex-flow: column;
     padding: 10px;
@@ -213,33 +210,33 @@ hr {
     margin-bottom: 25px;
     margin-left: 20px;
     margin-right: 20px;
-}
-.details h1{
-  writing-mode: horizontal-tb;
-  letter-spacing: 0px;
-  font-size: 40px;
-  padding: 10px;
-  color: #444444
-}
-  .reels{
+  }
+  .details h1 {
+    writing-mode: horizontal-tb;
+    letter-spacing: 0px;
+    font-size: 40px;
+    padding: 10px;
+    color: #444444;
+  }
+  .reels {
     flex-flow: column;
   }
-  .reels h1{
+  .reels h1 {
     writing-mode: horizontal-tb;
     letter-spacing: 0px;
   }
-  .reels .project{
+  .reels .project {
     position: static;
     flex-direction: column;
     display: flex;
     padding: 10px;
     align-items: center;
   }
-  .reels video{
+  .reels video {
     width: 100%;
     object-fit: cover;
   }
-  .reels .project-description{
+  .reels .project-description {
     display: flex;
     flex-direction: column;
     position: static;
@@ -251,21 +248,18 @@ hr {
     margin-bottom: 20px;
     margin-left: 0px;
     border-radius: 20px;
-    box-shadow: 6px 10px 20px 0px rgba(0,0,0,0.2);
-    
+    box-shadow: 6px 10px 20px 0px rgba(0, 0, 0, 0.2);
+
     transition: box-shadow ease 0.5s, filter ease 0.5s;
-    
   }
-  .reels .project-description:hover{
-    box-shadow: 6px 6px 22px 0px rgba(255,66,170,1);
+  .reels .project-description:hover {
+    box-shadow: 6px 6px 22px 0px rgba(255, 66, 170, 1);
   }
-  .reels h1{
+  .reels h1 {
     padding-left: 20px;
   }
-  .reels h2{
+  .reels h2 {
     font-size: 25px;
     padding-bottom: 4px;
   }
 }
-
-
