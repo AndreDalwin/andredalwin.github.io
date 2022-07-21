@@ -238,19 +238,7 @@ hr {
   .reels video{
     width: 100%;
     object-fit: cover;
-    z-index: -1;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 4px 10px 10px 0px rgba(0,0,0,0.2);
-  
-    transition: box-shadow ease 0.5s, filter ease 0.5s;
   }
-  
-  .reels video:hover{
-    box-shadow: 6px 6px 22px 0px rgba(255,66,170,1);
-    filter: grayscale(50%);
-  }
-  
   .reels .project-description{
     display: flex;
     flex-direction: column;
@@ -265,6 +253,11 @@ hr {
     border-radius: 20px;
     box-shadow: 6px 10px 20px 0px rgba(0,0,0,0.2);
     
+    transition: box-shadow ease 0.5s, filter ease 0.5s;
+    
+  }
+  .reels .project-description:hover{
+    box-shadow: 6px 6px 22px 0px rgba(255,66,170,1);
   }
   .reels h1{
     padding-left: 20px;
