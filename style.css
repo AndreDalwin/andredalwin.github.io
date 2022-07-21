@@ -91,7 +91,7 @@ hr {
 }
 
 .button:hover{
-  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.4);
+  box-shadow: 6px 6px 22px 0px rgba(255,66,170,1);
 }
 .video h3 {
   padding-bottom: 20px;
@@ -120,11 +120,6 @@ hr {
     margin-right: 20px;
 }
 
-.experience{
-  /*box-shadow: 18px 10px 42px -9px rgba(255, 177, 8, 0.72);*/
-  
-}
-
 .details h1{
     writing-mode: vertical-lr;
     text-orientation: upright;
@@ -144,7 +139,7 @@ hr {
 }
 
 .details .column:hover {
-  box-shadow: 6px 10px 20px 0px rgba(0,0,0,0.4);
+  box-shadow: 6px 6px 22px 0px rgba(255,66,170,1);
 }
 
 .details h3{
@@ -161,8 +156,6 @@ hr {
 
 .reels{
   flex-flow: column;
-   /* box-shadow: 18px 10px 42px -9px rgba(237,112,237,0.72); */
-  
 }
 .reels h1{
   writing-mode: horizontal-tb;
@@ -184,7 +177,7 @@ hr {
 }
 
 .reels video:hover{
-  box-shadow: 6px 10px 20px 0px rgba(0,0,0,0.4); 
+  box-shadow: 6px 6px 22px 0px rgba(255,66,170,1);
   filter: grayscale(50%);
 }
 
@@ -208,3 +201,78 @@ hr {
   font-size: 25px;
   padding-bottom: 4px;
 }
+
+@media (max-width: 600px){
+
+  .details{
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.details h1{
+  writing-mode: horizontal-tb;
+  letter-spacing: 0px;
+  font-size: 40px;
+  padding: 10px;
+  color: #444444
+}
+  .reels{
+    flex-flow: column;
+  }
+  .reels h1{
+    writing-mode: horizontal-tb;
+    letter-spacing: 0px;
+  }
+  .reels .project{
+    position: static;
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+  .reels video{
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 10px 10px 0px rgba(0,0,0,0.2);
+  
+    transition: box-shadow ease 0.5s, filter ease 0.5s;
+  }
+  
+  .reels video:hover{
+    box-shadow: 6px 6px 22px 0px rgba(255,66,170,1);
+    filter: grayscale(50%);
+  }
+  
+  .reels .project-description{
+    display: flex;
+    flex-direction: column;
+    position: static;
+    width: 95%;
+    top: 0px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    border-radius: 20px;
+    box-shadow: 6px 10px 20px 0px rgba(0,0,0,0.2);
+    
+  }
+  .reels h1{
+    padding-left: 20px;
+  }
+  .reels h2{
+    font-size: 25px;
+    padding-bottom: 4px;
+  }
+}
+
+
