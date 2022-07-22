@@ -5,6 +5,9 @@
 * {
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 h1 {
   font-family: "Kanit", sans-serif;
   font-size: 100px;
@@ -58,6 +61,11 @@ hr {
   padding-top: 30px;
   max-width: 35px;
   max-height: 35px;
+
+  transition: transform ease 0.5s;
+}
+.landing img:hover{
+  transform: scale(1.5);
 }
 .body {
   display: flex;
