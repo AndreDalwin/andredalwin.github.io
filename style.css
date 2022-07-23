@@ -61,7 +61,6 @@ hr {
   padding-top: 30px;
   max-width: 35px;
   max-height: 35px;
-
   transition: transform ease 0.5s;
 }
 .landing img:hover{
@@ -90,7 +89,7 @@ hr {
 .button {
   max-width: 5em;
   border-radius: 25px;
-  transition: box-shadow ease 0.5s;
+  transition: box-shadow ease 1s;
 }
 
 .button i {
@@ -100,7 +99,7 @@ hr {
 }
 
 .button:hover {
-  box-shadow: 6px 6px 22px 0px rgba(255, 66, 170, 1);
+  box-shadow: 6px 6px 22px 0px rgb(66, 227, 255);
 }
 .video h3 {
   padding-bottom: 20px;
@@ -143,11 +142,11 @@ hr {
   padding: 10px;
   margin: 15px;
   box-shadow: 4px 10px 10px 0px rgba(0, 0, 0, 0.2);
-  transition: box-shadow ease 0.5s;
+  transition: box-shadow ease 1s;
 }
 
 .details .column:hover {
-  box-shadow: 6px 6px 22px 0px rgba(255, 66, 170, 1);
+  box-shadow: 6px 6px 22px 0px rgb(66, 227, 255);
 }
 
 .details h3 {
@@ -160,6 +159,11 @@ hr {
 .details p {
   font-family: Helvetica, sans-serif;
   line-height: 25px;
+}
+.details .column-containter{
+  display: grid;
+  grid-column: 1;
+  grid-row: 4;
 }
 
 .reels {
@@ -181,12 +185,11 @@ hr {
   overflow: hidden;
   box-shadow: 4px 10px 10px 0px rgba(0, 0, 0, 0.2);
 
-  transition: box-shadow ease 0.5s, filter ease 0.5s;
+  transition: box-shadow ease 1s;
 }
 
 .reels video:hover {
-  box-shadow: 6px 6px 22px 0px rgba(255, 66, 170, 1);
-  filter: grayscale(50%);
+  box-shadow: 6px 6px 22px 0px rgb(66, 227, 255);
 }
 
 .reels .project-description {
@@ -208,7 +211,7 @@ hr {
   font-size: 25px;
   padding-bottom: 4px;
 }
-
+/* For Mobile Devices */
 @media (max-width: 600px) {
   .details {
     display: flex;
@@ -260,7 +263,7 @@ hr {
     border-radius: 20px;
     box-shadow: 6px 10px 20px 0px rgba(0, 0, 0, 0.2);
 
-    transition: box-shadow ease 0.5s, filter ease 0.5s;
+    transition: box-shadow ease 1;
   }
   .reels .project-description:hover {
     box-shadow: 6px 6px 22px 0px rgba(255, 66, 170, 1);
