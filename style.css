@@ -68,6 +68,7 @@ nav a:hover {
     border-radius: 30px;
     margin-bottom: 3vw;
 }
+/*half is for half landing!*/
 .half{
     height: calc(50vh - 80px);
 }
@@ -111,16 +112,27 @@ nav a:hover {
     line-height: 125%;
 }
 .info .second{
-    padding-left: 36vw;
+    padding-left: 35vw;
     width: 50vw;
 }
 .info p{
-    padding-left: 36vw;
+    padding-left: 35vw;
     font-size: min(max(10px, calc(0.625rem + ((1vw - 4.14px) * 0.664))), 20px);
     min-height: 0vw;
     width: 40vw;
     max-width: 800px;
     margin-bottom: 20px;
+}
+/*For main about section text*/
+.about p{
+    padding-left: 24vw;
+    max-width: 1100px;
+    width: 50vw;
+}
+.about h2{
+    padding-left: 18vw;
+    max-width: 1300vw;
+    width: 70vw;
 }
 .info a{
     font-family: 'Poppins', sans-serif;
@@ -139,11 +151,6 @@ nav a:hover {
 .info a:hover{
     transform: scale(1.1) translateX(-20px);
 }
-.about h2{
-    padding-left: 18vw;
-    max-width: 1500vw;
-
-}
 .projects{
     margin-bottom: 40px;
     position: relative;
@@ -159,5 +166,4 @@ nav a:hover {
     border-radius: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
