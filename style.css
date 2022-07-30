@@ -167,3 +167,40 @@ nav a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 680px) {
+    .landing{
+        max-width: 90vw;
+    }
+    .landing .landing-text{
+        padding: calc(50vh - 100px) 6vw;
+    }
+    .info h2{
+        padding-left: 5vw;
+        font-size: 30px;
+        width: 90vw;
+        max-width: 1400px;
+    }
+    .info .second{
+        padding-left: 5vw;
+        width: 90vw;
+        padding-bottom: 10px;
+    }
+    .info p{
+        padding-left: 5vw;
+        font-size: 15px;
+        width: 80vw;
+        margin-bottom: 20px;
+    }
+    .info a{
+        padding-left: 5vw;
+        padding-right: 20vw;
+    }
+    .projects-box video{
+        width: 90vw;
+        max-width: 1300px;
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+  }
