@@ -168,12 +168,27 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(150, 150, 150);
+    height: 40px;
+    padding-top: 20px;
+}
+footer p{
+    color: #fcfaf4;
+}
+
 @media only screen and (max-width: 680px) {
     .landing{
         max-width: 90vw;
     }
     .landing .landing-text{
         padding: calc(50vh - 100px) 6vw;
+    }
+    .half .landing-text{
+        padding: calc(3vw + 3vh) 6vw;
     }
     .info h2{
         padding-left: 5vw;
@@ -198,9 +213,5 @@ nav a:hover {
     }
     .projects-box video{
         width: 90vw;
-        max-width: 1300px;
-        border-radius: 30px;
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
   }
