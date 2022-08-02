@@ -98,7 +98,7 @@ nav a:hover {
     padding-bottom: 70px;
 }
 .info h3{
-    padding-left: 6vw;
+    padding-left: 18vw;
     font-size: min(max(20px, calc(1.25rem + ((1vw - 4.14px) * 0.664))), 30px);
     min-height: 0vw;
 }
@@ -162,7 +162,7 @@ nav a:hover {
 }
 .projects-box video{
     width: 90%;
-    max-width: 1300px;
+    max-width: 1100px;
     border-radius: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
