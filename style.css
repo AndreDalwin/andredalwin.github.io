@@ -160,8 +160,8 @@ nav a:hover {
 .project video{
     width: 100%;
     border-radius: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .project-container{
     display: flex;
@@ -190,6 +190,10 @@ footer p{
     .half .landing-text{
         padding: calc(3vw + 3vh) 6vw;
     }
+    .info{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
     .info h2{
         padding-left: 5vw;
         font-size: 30px;
@@ -211,7 +215,22 @@ footer p{
         padding-left: 5vw;
         padding-right: 20vw;
     }
-    .projects-box video{
+    .project video{
         width: 90vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .project-container{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .project{
+        min-width: 100vw;
+        padding: 20px 0px;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
   }
