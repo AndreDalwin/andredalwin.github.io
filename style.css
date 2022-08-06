@@ -98,7 +98,7 @@ nav a:hover {
     padding-bottom: 70px;
 }
 .info h3{
-    padding-left: 18vw;
+    padding-left: 6vw;
     font-size: min(max(20px, calc(1.25rem + ((1vw - 4.14px) * 0.664))), 30px);
     min-height: 0vw;
 }
@@ -151,21 +151,21 @@ nav a:hover {
 .info a:hover{
     transform: scale(1.1) translateX(-20px);
 }
-.projects{
-    margin-bottom: 40px;
-    position: relative;
+.project{
+    padding: 20px;
+    min-width: 500px;
+    width: 40vw;
+    flex-grow: 1;
 }
-.projects-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.projects-box video{
-    width: 90%;
-    max-width: 1100px;
+.project video{
+    width: 100%;
     border-radius: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.project-container{
+    display: flex;
+    flex-flow: row wrap;
 }
 
 footer{
