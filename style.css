@@ -228,6 +228,16 @@ footer p{
         width: 90vw;
         margin-top: 0px;
         margin-bottom: 0px;
+        border-radius: 15px;
+    }
+    .project-big{
+        min-width: 94vw;
+    }
+    .project-big video{
+        width: 94vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 15px;
     }
     .project-container{
         display: flex;
