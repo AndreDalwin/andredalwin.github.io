@@ -94,7 +94,6 @@ nav a:hover {
     margin: auto;
     left: 0;
     right: 0;
-    padding-top: 70px;
     padding-bottom: 70px;
 }
 .info h3{
@@ -151,6 +150,18 @@ nav a:hover {
 .info a:hover{
     transform: scale(1.1) translateX(-20px);
 }
+.project-big{
+    margin: auto;
+    min-width: 500px;
+    width: 94vw;
+    flex-grow: 1;
+}
+.project-big video{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .project{
     padding: 20px;
     min-width: 500px;
@@ -160,8 +171,6 @@ nav a:hover {
 .project video{
     width: 100%;
     border-radius: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 .project-container{
     display: flex;
