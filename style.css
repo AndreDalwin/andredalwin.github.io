@@ -129,6 +129,10 @@ nav a:hover {
     margin: 10px;
 
 }
+.project img{
+    width: 100%;
+    border-radius: 15px;
+}
 .project video{
     width: 100%;
     border-radius: 15px;
