@@ -4,41 +4,45 @@
 }
 
 body{
-    background-color: #fcfaf4;
+    background-color: #151414;
 }
 a{
     text-decoration: none;
 }
 h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 100px;
-    color: #111111;
+    font-size: 50px;
+    color: #fcfaf4;
 }
 
 h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    color: #111111;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fcfaf4;
 }
 
 h3{
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 400;
-    color: #111111;
+    color: #fcfaf4;
 }
 p{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    color: #111111;
+    font-size: 14px;
+    color: #fcfaf4;
 }
 
 nav{
     height: 60px;
     padding: 10px 3vw;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1400px;
 }
 
 nav .links {
@@ -47,114 +51,61 @@ nav .links {
 }
 
 nav a {
-    color: #333333;
+    color: #151414;
     transition: transform ease 0.5s;
 }
 
+nav p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+nav h3{
+    font-weight: 500;
+    font-size: 25px;
+}
 nav a:hover {
     transform: scale(1.2);
 }
 
-.landing {
-    background: url(/media/Glass0316.jpg) center center;
-    height: calc((100vh - 3vw) - 80px);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    margin: auto;
-    left: 0;
-    right: 0;
-    max-width: 94vw;
-    border-radius: 30px;
-    margin-bottom: 3vw;
-}
-/*half is for half landing!!*/
-.half{
-    height: calc(50vh - 80px);
-}
-.landing .landing-text{
-    padding: calc(3vw + 3vh) 6vw;
-}
-.landing h1{
-    color: #fcfaf4;
-    font-size: min(max(75px, calc(4.6875rem + ((1vw - 4.14px) * 8.3001))), 200px);
-    min-height: 0vw;
-    line-height: 85%;
-}
-
-.landing p{
-    color: #fcfaf4;
-    font-size: min(max(20px, calc(1.25rem + ((1vw - 4.14px) * 0.996))), 35px);
-    min-height: 0vw;
-    padding-left: 0.5vw;
-}
 .info{
-    max-width: 94vw;
+    max-width: 1400px;
+    width:94vw;
     position: relative;
     margin: auto;
     left: 0;
     right: 0;
-    padding-bottom: 70px;
-}
-.info h3{
-    padding-left: 6vw;
-    font-size: min(max(20px, calc(1.25rem + ((1vw - 4.14px) * 0.664))), 30px);
-    min-height: 0vw;
-}
-.info h2{
-    padding-left: 24vw;
-    font-size: min(max(30px, calc(1.875rem + ((1vw - 4.14px) * 2.656))), 70px);
-    min-height: 0vw;
-    width: 70vw;
-    max-width: 1400px;
-    font-weight: 500;
-    line-height: 125%;
-}
-.info .second{
-    padding-left: 35vw;
-    width: 50vw;
-}
-.info p{
-    padding-left: 35vw;
-    font-size: min(max(10px, calc(0.625rem + ((1vw - 4.14px) * 0.664))), 20px);
-    min-height: 0vw;
-    width: 40vw;
-    max-width: 800px;
-    margin-bottom: 20px;
-}
-/*For main about section text*/
-.about p{
-    padding-left: 24vw;
-    max-width: 1100px;
-    width: 50vw;
-}
-.about h2{
-    padding-left: 18vw;
-    max-width: 1300vw;
-    width: 70vw;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .info a{
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    color: #0ABAB5;
-    padding-left: 60vw;
-    padding-right: 19vw;
+    padding-top: 10px;
+    color: #12e9e2;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    
     font-weight: 600;
+    max-width: 300px;
     transition: transform ease 0.5s;
 }
 .info a:hover{
-    transform: scale(1.1) translateX(-20px);
+    transform: scale(1.02);
 }
+.info a h3{
+    color: #12e9e2;
+    padding-right: 10px;
+}
+
 .project-big{
     margin: auto;
-    min-width: 500px;
+    max-width: 1400px;
     width: 94vw;
     flex-grow: 1;
+    
 }
 .project-big video{
     width: 100%;
@@ -162,94 +113,121 @@ nav a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.project-big img{
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .project{
-    padding: 20px;
-    min-width: 500px;
-    width: 40vw;
+    margin: auto;
+    min-width: 350px;
+    max-width: 94vw;
+    width: 40%;
     flex-grow: 1;
+    background-color: #151414;
+    margin: 10px;
+
 }
 .project video{
     width: 100%;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 .project-container{
     display: flex;
     flex-flow: row wrap;
+    max-width: 1400px;
 }
-
-footer{
+.showcase-container {
     display: flex;
     flex-direction: column;
+    max-width: 1400px;
     align-items: center;
-    background-color: rgb(150, 150, 150);
-    height: 40px;
-    padding-top: 20px;
+}
+.showcase {
+    margin: auto;
+    width: 100%;
+    flex-grow: 1;
+    background-color: #151414;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.l{
+    flex-direction: row-reverse;
+}
+.showcase .text{
+    padding: 20px;
+    
+}
+.showcase .text h1{
+    line-height: 110%;
+}
+.showcase video{
+    width: 70%;
+    border-radius: 15px;
+}
+.gallery {
+    line-height:0;
+    -webkit-column-count:3; /* split it into 5 columns */
+    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -moz-column-count:3;
+    -moz-column-gap:5px;
+    column-count:3;
+    column-gap:5px;
+    max-width: 1400px;
+    padding: 20px;
+ }
+.gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px; /* to match column gap */
+    transition: transform ease 0.1s;
+ }
+ .gallery img:hover{
+    transform: scale(1.5);
+ }
+footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    height: 30px;
+    padding-top: 10px;
+    position: fixed;
+    bottom: 0;
 }
 footer p{
     color: #fcfaf4;
 }
-
-@media only screen and (max-width: 680px) {
-    .landing{
-        max-width: 90vw;
+ @media (max-width: 800px) {
+    .gallery {
+     -moz-column-count:    2;
+     -webkit-column-count: 2;
+     column-count:         2;
     }
-    .landing .landing-text{
-        padding: calc(50vh - 100px) 6vw;
+ }
+ @media (max-width: 450px) {
+    .gallery {
+     -moz-column-count:    1;
+     -webkit-column-count: 1;
+     column-count:         1;
     }
-    .half .landing-text{
-        padding: calc(3vw + 3vh) 6vw;
+    .gallery img:hover{
+        transform: scale(1.1);
     }
-    .info{
-        padding-top: 35px;
-        padding-bottom: 35px;
-    }
-    .info h2{
-        padding-left: 5vw;
-        font-size: 30px;
-        width: 90vw;
-        max-width: 1400px;
-    }
-    .info .second{
-        padding-left: 5vw;
-        width: 90vw;
-        padding-bottom: 10px;
-    }
-    .info p{
-        padding-left: 5vw;
-        font-size: 15px;
-        width: 80vw;
-        margin-bottom: 20px;
-    }
-    .info a{
-        padding-left: 5vw;
-        padding-right: 20vw;
-    }
-    .project video{
-        width: 90vw;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        border-radius: 15px;
-    }
-    .project-big{
-        min-width: 94vw;
-    }
-    .project-big video{
-        width: 94vw;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        border-radius: 15px;
-    }
-    .project-container{
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-    }
-    .project{
-        min-width: 100vw;
-        padding: 20px 0px;
-        flex-grow: 0;
-        display: flex;
+    .showcase {
         flex-direction: column;
-        align-items: center;
     }
-  }
+    .l{
+        flex-direction: column;
+    }
+    .showcase video{
+        width: 100%;
+    }
+    .showcase h1{
+        font-size: 35px;
+        padding-bottom: 5px;
+    }
+ }
