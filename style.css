@@ -100,6 +100,26 @@ nav a:hover {
     padding-right: 10px;
 }
 
+.about img{
+    width: 40%;
+}
+.about .text{
+    padding: 30px;
+}
+
+.about{
+    max-width: 1100px;
+    width:94vw;
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .project-big{
     margin: auto;
     max-width: 1400px;
