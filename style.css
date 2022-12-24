@@ -254,4 +254,11 @@ footer p{
         font-size: 35px;
         padding-bottom: 5px;
     }
+    .about{
+        padding-top: 0px;
+        flex-direction: column;
+    }
+    .about img{
+        width: 90%;
+    }
  }
